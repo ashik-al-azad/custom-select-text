@@ -1,0 +1,11 @@
+/* select text */
+.text-select::-moz-selection {
+    /* for moz */
+    color: red;
+    background: yellow;
+}
+
+.text-select::selection {
+    color: red;
+    background: yellow;
+}
